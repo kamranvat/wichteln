@@ -41,10 +41,11 @@ def print_santas(santas):
     """
     Prints the secret santa assignments to the console.
     """
+    print("\nAssignments:")
     for i in range(len(santas)):
         santa = santas[i]
         gift_receiver = santas[(i + 1) % len(santas)]
-        print(f"{santa} -> {gift_receiver}")
+        print(f"  {santa} -> {gift_receiver}")
 
 
 def main():
