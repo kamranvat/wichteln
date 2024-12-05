@@ -8,8 +8,8 @@
 
 1. **Clone the repository:**
    ```sh
-   git clone <repository_url>
-   cd <repository_directory>
+   git clone https://github.com/kamranvat/wichteln.git
+   cd wichteln
 
 
 ## How to use
